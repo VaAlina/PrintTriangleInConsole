@@ -1,6 +1,8 @@
 
 PrintTriangleInConsole 2.2
 ==========================
+package rect;
+
 public class PrintTriangle {
 	public static void main(String[] args) {
 
@@ -15,19 +17,18 @@ public class PrintTriangle {
 		System.out.print("\n");
 
 		String l = " ";
-		while (b != 0) {
+		while (b != -1) {
 			double y = Math.pow(10, b);
 			long k = (long) y;
 			System.out.print(l + "$" + k + "" + k + "$" + "\n");
 			b = b - 1;
 			l = l + " ";
 		}
-		System.out.print(l + " $$$");
+		System.out.print(l + "$$");
 
 	}
 
 }
-
 
 PrintTriangleInConsole 2.1
 ==========================
