@@ -1,3 +1,34 @@
+
+PrintTriangleInConsole 2.2
+==========================
+public class PrintTriangle {
+	public static void main(String[] args) {
+
+		int a = 8, b = 5;
+		int j = 0;
+		int h = 0;
+
+		while (h < (b + 4) * 2 - 2) {
+			System.out.print("$");
+			h++;
+		}
+		System.out.print("\n");
+
+		String l = " ";
+		while (b != 0) {
+			double y = Math.pow(10, b);
+			long k = (long) y;
+			System.out.print(l + "$" + k + "" + k + "$" + "\n");
+			b = b - 1;
+			l = l + " ";
+		}
+		System.out.print(l + " $$$");
+
+	}
+
+}
+
+
 PrintTriangleInConsole 2.1
 ==========================
 package rect;
