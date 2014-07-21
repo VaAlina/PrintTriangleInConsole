@@ -1,5 +1,37 @@
-PrintTriangleInConsole
-======================
+PrintTriangleInConsole 2.0
+==========================
+package rect;
+
+public class PrintTriangle {
+	public static void main(String[] args) {
+
+		int a = 10, b = 6;
+		int j = 0;
+		int h = 0;
+
+		while (h < a) {
+			System.out.print("$");
+			h++;
+		}
+		System.out.print("\n");
+
+		String l = " ";
+		while (b != 0) {
+			double y = Math.pow(10, b);
+			int k = (int) y;
+			System.out.print(l+"$" + k + "$"+ "\n");
+			b = b-1;
+			l = l + " ";
+		}System.out.print(l+"$$$");
+
+	}
+
+}
+
+
+
+PrintTriangleInConsole 1.1
+==========================
 package rect;
 
 public class PrintTriangle {
@@ -33,8 +65,8 @@ public class PrintTriangle {
 
 
 
-PrintTriangleInConsole
-======================
+PrintTriangleInConsole 1.0
+==========================
 package rect;
 
 public class PrintTriangle {
